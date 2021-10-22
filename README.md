@@ -1,6 +1,6 @@
 # MakMak-Supermarket
 
-1- Frist install readline npm package
+1- First install readline npm package
 
 2- Second in Item array you will find all supermarket products and to run this supermarket enter inputs as below 
 
