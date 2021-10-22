@@ -1,17 +1,17 @@
 # MakMak-Supermarket
 
-1- Frist run this code into console
+1- Frist install readline npm package
 
 2- Second in Item array you will find all supermarket products and to run this supermarket enter inputs as below 
 
 3- If you want to ask about price of any product enter price and product name 
-   for example : price Sugar
+   for example: price Sugar
    
 4- If you want to ask about quantity of product enter search and product name and quantity you want
-   for example : search Sugar 2
+   for example: search Sugar 2
    
 5- If you want make order enter order and product name and quantity you want
-   for example : order Sugar 2
+   for example: order Sugar 2
    
 6- If you finished your order enter "order done"
 
