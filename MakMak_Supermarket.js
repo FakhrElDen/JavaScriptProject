@@ -1,7 +1,7 @@
 /* 
 Project Description
 
-1- Frist run this code into console
+1- First install readline npm package
 
 2- Second in Item array you will find all supermarket products and to run this supermarket enter inputs as below 
 
