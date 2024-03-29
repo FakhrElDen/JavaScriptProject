@@ -1,24 +1,27 @@
-# MakMak-Supermarket
+# MakMak Market Simulator
 
-1- First install readline npm package
+## Introduction
 
-2- Second in Item array you will find all supermarket products and to run this supermarket enter inputs as below 
+The MakMak Market Simulator is a command-line application that simulates a marketplace.
+It allows users to interact with a list of items, place orders, and manage inventory.
+This project is designed to demonstrate basic CRUD operations and command-line interaction in Node.js.
 
-3- If you want to ask about price of any product enter price and product name 
-   for example: price Sugar
-   
-4- If you want to ask about quantity of product enter search and product name and quantity you want
-   for example: search Sugar 2
-   
-5- If you want make order enter order and product name and quantity you want
-   for example: order Sugar 2
-   
-6- If you finished your order enter "order done"
+## Usage
 
-7- If you want to know the products need to restock enter "restock"
+- Run: **npm install readline**
+- Run: **node makmak-supermarket.js**
+- The simulator will prompt you with a question: **How can I help you?**.
+- supermartket items: **sugar, rice, tea, pasta, oil**.
+  maximum quantity of every item is **10**.
 
-8- If you want to know the profit you gained it enter "sales"
+## You can interact with the marketplace enter commands:
 
-9- If you want to know which is the most selling product enter "most selling" 
-
-10- If you want to know the product that got most sales enter "most sales"
+- **price [item name]**: Check the price of an item.
+- **search [item name] [quantity]**: Check the availability of an item.
+- **order [item name] [quantity]**: Add an item to your order.
+- **order done**: Complete your order and view the total.
+- **sales**: View total sales.
+- **most selling**: View the most selling item.
+- **most sales**: View the item with the highest sales.
+- **restock**: Check items that need restocking.
+- **exit**: Exit the simulator.
